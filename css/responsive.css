@@ -72,7 +72,16 @@
             width: 100%;
             padding: 100px 80px ;
         }
-
+        /* Benefits  */
+        .boxs {
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        .box {
+            width: 45ch;
+        }
         /* Bussines */
         .bussiness-text {
             padding: 40px ;

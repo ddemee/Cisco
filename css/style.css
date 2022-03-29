@@ -121,15 +121,7 @@ nav a {
 #benefits {
     padding: 50px 40px;
 }
-.boxs {
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.box {
-    width: 45ch;
-}
+
 .box img {
     border-radius: 15px;
 }
