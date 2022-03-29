@@ -1,0 +1,107 @@
+
+@media (min-width: 576px) { 
+    h1 {
+        color: white;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    h2 {
+        color: white;
+        line-height: 40px;
+    }
+    .container {
+        max-width:540px;
+    }
+
+}
+@media (min-width: 768px) { 
+    /* defaults */
+    h1 {
+        color: white;
+        font-size: 48px;
+        line-height: 64px;
+    }
+    h2 {
+        color: white;
+        line-height: 64px;
+    }
+    .container {
+        max-width:720px;
+    }
+    /* header */
+    #header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
+    }
+    .logo img{
+        max-width: 100px;
+        margin: 15px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: end;
+    }
+    /* hero */
+    .hero-bg {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .hero-text {
+        width: 70%;
+        padding: 40px ;
+    
+    }
+    .second,.first {
+        padding: 5px 20px 6px;
+        border-radius: 100px;
+        line-height: 1.37;
+        margin-bottom: 0;
+        min-width: 140px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width:	960px;
+    }
+        /* hero */
+        .hero-bg {
+            width: 100%;
+            padding: 100px 80px ;
+        }
+
+        /* Bussines */
+        .bussiness-text {
+            padding: 40px ;
+            width: 60%;
+            color: rgb(0, 0, 0);
+        }
+        .virus {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .virus img {
+            max-width: 500px;
+        }
+
+
+ }
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:	1140px;
+    }
+ }
+
+@media (min-width: 1400px) { 
+    .container {
+        max-width:1320px;
+    }
+       /* HEROO */
+ 
+ }
+

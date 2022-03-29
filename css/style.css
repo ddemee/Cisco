@@ -1,0 +1,173 @@
+/* Defaults */
+body {
+    background-color: #f4f5f6;
+    
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+}
+h2 {
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+}
+h3 {
+    font-size: 2.5rem;
+    line-height: 1.211;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    margin: 40px 0 80px;
+}
+h4 {
+    font-size: 1.7rem;
+    line-height: 1.286;
+    margin:0.4em 0;
+}
+h5 {
+    font-size: 3rem;
+}
+h6 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 40px 0 20px;
+}
+img{
+    width: 100%;
+}
+/*  */
+.language{
+  display: flex;
+  justify-content: end;
+  padding: 5px 0;
+}
+.language a{
+    color: black;
+    margin-left: 5px;
+}
+.howtobuy {
+    color: black;
+    margin-right: 35px;
+    transition: all 2s ease-in;
+
+}
+.howtobuy:hover {
+    text-decoration: underline;
+}
+/* Main */
+main {
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
+}
+/* Header */
+#header {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
+    text-align: center;
+}
+.logo img{
+    max-width: 80px;
+}
+/* nav */
+nav ul {
+    padding: 10px;
+}
+nav ul li {
+    margin:10px;
+}
+nav a {
+    color: black;
+}
+/* Hero */
+.hero-bg {
+    background-image: url(../img/hero.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.hero-text {
+    width: 80%;
+    padding: 20px ;
+
+}
+.second,.first {
+    padding: 5px 20px 6px;
+    border-radius: 100px;
+    line-height: 1.37;
+    margin-bottom: 0;
+    min-width: 140px;
+    text-align: center;
+}
+.second {
+    background: transparent;
+    border: 1px solid #0175a2;
+    color: #0175a2;
+}
+.first {
+    background-color: #00bceb;
+    border: 1px solid #00bceb;
+    color: #0d274d;
+}
+.hero-a {
+    margin: 20px 0;
+}
+/* Benefits */
+#benefits {
+    padding: 50px 40px;
+}
+.boxs {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.box {
+    width: 45ch;
+}
+.box img {
+    border-radius: 15px;
+}
+.box p {
+    font-size: 1.2rem;
+    line-height: 1.44;
+    margin-bottom: 0.833em;
+    font-weight: 300;
+}
+/* Get  */
+#get {
+    margin: 40px 0;
+    background-color: #88cac9;
+    padding: 40px 40px 150px; 
+    text-align: center;
+}
+.get-img {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.get-img img {
+    margin: -150px 0 0;
+}
+/* Bussines */
+.bg2 {
+
+    width: 100%;
+    padding:40px ;
+    background-color: #88cac9;
+}
+
+.bussiness-text p {
+    margin: 30px 0;
+    line-height: 1.3;
+}
+
+/* Product */
+#small {
+    padding: 40px ;
+}
